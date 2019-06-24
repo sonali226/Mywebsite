@@ -1,22 +1,25 @@
 /*Main*/
 .container_24{
-    font-family:Arial Narrow', Arial, sans-serif;
+    font-family:sans-serif;
+
    
 }
-.content h1{
+header .primary{
+    background: palevioletred;
+}
+
+header h1{
     font-size:50px;
     margin-top: 15px;
 }
-.service{
-    clear:both;
-    float:left;
-
+.main,.primary{
+    background: #007bb5;
 }
 
 /*navigation*/
 .topnav{
     margin-top:30px;
-    margin-left:45px;
+    margin-left:50px;
 
 }
 .topnav li{
@@ -83,12 +86,15 @@ padding-right: -.5rem;
     max-width:300px;
      margin-left:5px;
 }
+
 .powerfull h2{
     background: #55ACEE;
 }
 .powerfull{
+    background: #dd4b39;
     margin-top:30px;
 }
+
 /*content*/
 .nextblock{
     height:750px;
@@ -137,7 +143,7 @@ color:blue;
     margin-left:500px;
 }
 .fa{
-    padding: 15px;
+  padding: 15px;
   font-size: 20px;
   width: 200px;
   text-align: center;
