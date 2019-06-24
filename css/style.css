@@ -1,21 +1,23 @@
 /*Main*/
-.main{
-    background: lightgrey;
+.container_24{
+    font-family:Arial Narrow', Arial, sans-serif;
+   
+}
+.content h1{
+    font-size:50px;
+    margin-top: 15px;
 }
 .service{
     clear:both;
     float:left;
 
 }
-.content,.lowdiv
-{
-    background: #007bb5;
-}
 
 /*navigation*/
 .topnav{
-    margin-bottom:20px;
+    margin-top:30px;
     margin-left:45px;
+
 }
 .topnav li{
     display:inline;
@@ -27,7 +29,7 @@
     text-align: center;
     padding: 10px 12px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 17px;
   }
 
 .topnav ul a{
@@ -81,10 +83,15 @@ padding-right: -.5rem;
     max-width:300px;
      margin-left:5px;
 }
-
+.powerfull h2{
+    background: #55ACEE;
+}
+.powerfull{
+    margin-top:30px;
+}
 /*content*/
 .nextblock{
-    height:870px;
+    height:750px;
     background-color: lightgray;
     text-align: center;
     
